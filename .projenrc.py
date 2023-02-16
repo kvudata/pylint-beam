@@ -1,3 +1,4 @@
+from projen import ProjectType
 from projen.python import PythonProject
 
 project = PythonProject(
@@ -6,6 +7,7 @@ project = PythonProject(
     module_name="pylint_beam",
     name="pylint-beam",
     version="0.1.0",
+    project_type=ProjectType.LIB,
 )
 
 project.synth()
