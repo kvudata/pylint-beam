@@ -8,6 +8,15 @@ project = PythonProject(
     name="pylint-beam",
     version="0.1.0",
     project_type=ProjectType.LIB,
+    deps=[
+        "pylint@2.*",
+    ],
+    dev_deps=[
+        "pytest",
+    ],
 )
+
+# add a task to be able to start a repl or run tests with --pdb
+project.add_task("python", exec="python", receive_args=True)
 
 project.synth()
