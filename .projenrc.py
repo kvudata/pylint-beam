@@ -32,5 +32,6 @@ project.add_task("run-plugin", steps=[
         receive_args=True,
     ),
 ])
+# TODO: should modify package or publish tasks to remove old dists
 
 project.synth()
