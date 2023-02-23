@@ -8,6 +8,7 @@ project = PythonProject(
     name="pylint-beam",
     homepage="https://github.com/kvudata/pylint-beam",
     description="Pylint plugin for Apache Beam",
+    license="MIT",
     version="0.1.1",
     project_type=ProjectType.LIB,
     deps=[

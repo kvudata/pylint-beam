@@ -12,6 +12,7 @@ kwargs = json.loads(
     "author_email": "kvudata@gmail.com",
     "version": "0.1.1",
     "description": "Pylint plugin for Apache Beam",
+    "license": "MIT",
     "url": "https://github.com/kvudata/pylint-beam"
 }
 """
