@@ -20,6 +20,10 @@
       "type": "devenv"
     },
     {
+      "name": "astroid",
+      "type": "runtime"
+    },
+    {
       "name": "pylint",
       "version": "2.*",
       "type": "runtime"
