@@ -10,7 +10,9 @@ kwargs = json.loads(
     "python_requires": ">=3.7",
     "author": "Krishna Vudata",
     "author_email": "kvudata@gmail.com",
-    "version": "0.1.0"
+    "version": "0.1.1",
+    "description": "Pylint plugin for Apache Beam",
+    "url": "https://github.com/kvudata/pylint-beam"
 }
 """
 )

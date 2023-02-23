@@ -6,7 +6,9 @@ project = PythonProject(
     author_name="Krishna Vudata",
     module_name="pylint_beam",
     name="pylint-beam",
-    version="0.1.0",
+    homepage="https://github.com/kvudata/pylint-beam",
+    description="Pylint plugin for Apache Beam",
+    version="0.1.1",
     project_type=ProjectType.LIB,
     deps=[
         "pylint@2.*",
