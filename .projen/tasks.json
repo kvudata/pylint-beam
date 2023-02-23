@@ -131,21 +131,24 @@
         }
       ]
     },
-    "pylint": {
-      "name": "pylint",
-      "steps": [
-        {
-          "exec": "pylint",
-          "receiveArgs": true
-        }
-      ]
-    },
     "python": {
       "name": "python",
       "steps": [
         {
           "exec": "python",
           "receiveArgs": true
+        }
+      ]
+    },
+    "run-plugin": {
+      "name": "run-plugin",
+      "steps": [
+        {
+          "exec": "pip install -e ."
+        },
+        {
+          "receiveArgs": true,
+          "exec": "pylint --load-plugins pylint_beam.checkers --disable all --enable write-to-bq"
         }
       ]
     },
